@@ -1,6 +1,7 @@
 import HeaderContent from "../components/header-content";
 import { HeaderPicture } from "../components/header-picture";
 import HeaderTechStack from "../components/header-links";
+import HeaderGoals from "../components/header-goals";
 
 export default function Header() {
     return (
@@ -13,6 +14,12 @@ export default function Header() {
             {/* Tech stack below */}
             <div className="max-w-6xl mt-8">
                 <HeaderTechStack />
+            </div>
+            <div>
+                <HeaderGoals/>
+                 <HeaderGoals/>
+                  <HeaderGoals/>
+                   <HeaderGoals/>
             </div>
         </div>
     )
