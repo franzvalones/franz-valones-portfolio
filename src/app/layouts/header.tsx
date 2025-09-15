@@ -17,9 +17,6 @@ export default function Header() {
             </div>
             <div>
                 <HeaderGoals/>
-                 <HeaderGoals/>
-                  <HeaderGoals/>
-                   <HeaderGoals/>
             </div>
         </div>
     )

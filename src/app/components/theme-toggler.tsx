@@ -3,15 +3,9 @@ import * as React from "react"
 import { Moon, Sun } from "lucide-react"
 import { useTheme } from "next-themes"
 import { Button } from "@/components/ui/button"
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
+
 export function ModeToggle({ className }: { className?: string }) {
   const { theme, setTheme } = useTheme()
-
   const onClick = () => {
   const nextTheme = theme === "dark" ? "light" : "dark"
   setTheme(nextTheme)
