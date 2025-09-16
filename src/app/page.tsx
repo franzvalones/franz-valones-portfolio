@@ -1,3 +1,4 @@
+import FeaturedWorks from "./layouts/featured-works";
 import Header from "./layouts/header";
 import Nav from "./layouts/nav-bar";
 
@@ -20,6 +21,7 @@ export default function Home() {
         <Nav />
         <br />
         <Header />
+        <FeaturedWorks/>
     </div>
   );
 
