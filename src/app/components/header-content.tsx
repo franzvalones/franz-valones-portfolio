@@ -6,7 +6,7 @@ export default function HeaderContent({ className }: { className: string }) {
     return (
         <div className={`flex flex-col justify-center ${className}`}>
             <h1 className="font-bold text-[4rem] sm:text-[5rem]">Web Developer</h1>
-            <p className="leading-relaxed">Hello 👋 I'm Franz Dainell Valones, a technology-driven Information Technology graduate at National University Baliwag,
+            <p className="leading-relaxed">Hello 👋 I&apos;m Franz Dainell Valones, a technology-driven Information Technology graduate at National University Baliwag,
                 specializing in Web and Mobile Application Development. With hands-on experience as a
                 Software Engineer and Quality Assurance Engineer</p>
             <SocialLinks
