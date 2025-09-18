@@ -70,9 +70,6 @@ export default function FeaturedWorks() {
                     ))}
                 </div>
             </div>
-            <div className="border border-red-500 h-20">
-                Below section
-            </div>
         </div>
     )
 }

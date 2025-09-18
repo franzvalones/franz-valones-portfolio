@@ -1,6 +1,7 @@
 import FeaturedWorks from "./layouts/featured-works";
 import Header from "./layouts/header";
 import Nav from "./layouts/nav-bar";
+import Timeline from "./layouts/timeline";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <br />
         <Header />
         <FeaturedWorks/>
+        <Timeline/>
     </div>
   );
 
