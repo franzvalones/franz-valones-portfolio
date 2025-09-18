@@ -46,7 +46,7 @@ export default function FeaturedWorks() {
                 </div>
                 <div className="flex flex-col md:flex-row justify-evenly p-5 space-y-4 md:space-y-0">
                     {datas.map((data, key) => (
-                        <Card key={key} className="md:w-[30%]">
+                        <Card key={key} className="md:w-[30%] transition-transform duration-300 hover:scale-105">
                             <CardHeader>
                                 <CardTitle>{data.title}</CardTitle>
                                 <CardDescription>{data.desc}</CardDescription>
@@ -70,8 +70,6 @@ export default function FeaturedWorks() {
                     ))}
                 </div>
             </div>
-
-            {/* This will now be pushed down correctly */}
             <div className="border border-red-500 h-20">
                 Below section
             </div>
