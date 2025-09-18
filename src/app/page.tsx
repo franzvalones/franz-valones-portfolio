@@ -5,7 +5,7 @@ import Timeline from "./layouts/timeline";
 
 export default function Home() {
   return (
-    <div>
+    <div id="about">
       <div className="absolute top-0 right-0 w-full h-screen overflow-x-hidden -z-10">
           <svg viewBox="0 0 200 200"
             xmlns="http://www.w3.org/2000/svg"
