@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Epilogue, Geist, Geist_Mono } from "next/font/google";
+import { Epilogue } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "./components/theme-provider";
 
