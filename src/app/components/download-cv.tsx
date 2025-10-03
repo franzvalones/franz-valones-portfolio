@@ -4,7 +4,7 @@ export function CvDownload() {
     return (
         <>
             <a
-                href="/images/Valones_Franz.pdf"
+                href="/images/Valones_Franz_Dainell_V_resume_latest.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="">
